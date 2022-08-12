@@ -1,0 +1,11 @@
+H:\POO\2 Etapa\Atividades\CalcularIMC_33\CalcularIMC_33\bin\Debug\CalcularIMC_33.exe.config
+H:\POO\2 Etapa\Atividades\CalcularIMC_33\CalcularIMC_33\bin\Debug\CalcularIMC_33.exe
+H:\POO\2 Etapa\Atividades\CalcularIMC_33\CalcularIMC_33\bin\Debug\CalcularIMC_33.pdb
+H:\POO\2 Etapa\Atividades\CalcularIMC_33\CalcularIMC_33\obj\Debug\CalcularIMC_33.csproj.AssemblyReference.cache
+H:\POO\2 Etapa\Atividades\CalcularIMC_33\CalcularIMC_33\obj\Debug\CalcularIMC_33.csproj.SuggestedBindingRedirects.cache
+H:\POO\2 Etapa\Atividades\CalcularIMC_33\CalcularIMC_33\obj\Debug\CalcularIMC_33.Form1.resources
+H:\POO\2 Etapa\Atividades\CalcularIMC_33\CalcularIMC_33\obj\Debug\CalcularIMC_33.Properties.Resources.resources
+H:\POO\2 Etapa\Atividades\CalcularIMC_33\CalcularIMC_33\obj\Debug\CalcularIMC_33.csproj.GenerateResource.cache
+H:\POO\2 Etapa\Atividades\CalcularIMC_33\CalcularIMC_33\obj\Debug\CalcularIMC_33.csproj.CoreCompileInputs.cache
+H:\POO\2 Etapa\Atividades\CalcularIMC_33\CalcularIMC_33\obj\Debug\CalcularIMC_33.exe
+H:\POO\2 Etapa\Atividades\CalcularIMC_33\CalcularIMC_33\obj\Debug\CalcularIMC_33.pdb
