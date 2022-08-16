@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,10 +17,12 @@ namespace CalcularIMC_33
             InitializeComponent();
         }
 
+        //Instanciando classe (TEM QUE FAZER!! XD )
         Imc objImc = new Imc();
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
+            //Adicionando as exceções
             try
             {
                 if (txtAltura.Text.Length <= 0 || txtPeso.Text.Length <= 0)
@@ -35,10 +37,12 @@ namespace CalcularIMC_33
                     MessageBox.Show(objImc.CalcularIMC());
                 }
             }
+            //Retornando erro caso usuário não digitar apenas números
             catch (FormatException)
             {
                 MessageBox.Show("Erro: Digite apenas números!");
             }
+            //Retornando outros erros
             catch (Exception ex)
             {
                 MessageBox.Show("Erro: " + ex.Message);
