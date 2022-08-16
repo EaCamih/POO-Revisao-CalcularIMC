@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,16 +10,19 @@ namespace CalcularIMC_33
     {
         private double peso;
         private double altura;
+        //CONTROL + R + E (com a classe selecionada)
 
+        //Criando classe pública (Caso seja privada, só subistituir o "public" por "private")
         public double Peso { 
             get => peso;
             set { if (value >= 1) { this.peso = value; } else { throw new Exception("O peso mínimo deve ser de 1.00kg"); } }
         }
         public double Altura { 
-            get => altura; 
+            get => altura;
             set { if (value >= 1) { this.altura = value; } else { throw new Exception("A altura mínima deve ser de 1.00m"); } } 
         }
 
+        //Criando função pública (Caso seja privada, só subistituir o "public" por "private")
         public string CalcularIMC() {
 
             double imc = this.Peso / (this.altura * this.altura);
@@ -45,7 +48,7 @@ namespace CalcularIMC_33
                 stats = "Obesidade grau III";
             }
 
-
+            //Retornar valores da função
             return "Seu IMC é de: " + imc + "\n\n" + stats; 
         
         }
